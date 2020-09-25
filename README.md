@@ -1,9 +1,9 @@
 # ML-CNT
 
-1. Reference: 
+### Reference: 
 Luo, Qixiang, Holm, Elizabeth and Wang, Chen. "A Transfer Learning Approach for Improved Classification of Carbon Nanomaterials from TEM Images", Nanoscale Advances., 2020.
 
-2. Package Description:
+### Package Description:
 This package includes LinearSoftmax (LS) and Hypercolumn (Hcol) models for carbon nanostructure classification. 
 Files within the “models” directory: 
 - LS_model_v0.ipynb - LS model notebook including training, optimization, visualization and testing modulus.
@@ -13,7 +13,7 @@ Files within the “models” directory:
 - Hcol_model_v1.ipynb - Hcol model notebook including training and testing modulus only.
 - Hcol_model_v1.py - Python file for Hcol model v1.
 
-3. Instruction:
+### Instruction:
 - Required software/environment: Visual Studio 2017, Anaconda3, CUDA Toolkit v10.0, cuDNN v7.3.1, tensorflow_gpu_1.12_py37
 - Files in the “intermediate_weights” folder are required for using LS_model_v1.
 - Use LS_model_v1 and Hcol_model_v1 for testing. 
